@@ -1,0 +1,105 @@
+@import "foundation.min.css";
+
+@font-face {
+    font-family: 'Aspira';
+    src: url('../fonts/aspira.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JaneAusten';
+    src: url('../fonts/janeaust.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pesaro';
+    src: url('../fonts/pesaro-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    margin: 50px;
+    border-top: black solid thin;
+    border-left: black solid thin;
+    border-right: black solid thin;
+    background: white;
+    border-bottom: black solid 2px;
+}
+
+.author {
+    font-family: Aspira;
+    margin-left: 4%;
+    margin-top: 4%;
+    color: black;
+    font-size: 23px;
+    border-bottom: solid black thin;
+    border-top: solid black thin;
+    padding: 1%;
+    width: 250px;
+    text-align: center;
+    float: left;
+    display: inline-block;
+}
+
+h1 {
+    font-family: Pesaro, Arial, sans-serif;
+    margin-top: 3%;
+    font-weight: 700;
+    font-size: 150px;
+    color: black;
+    overflow: hidden;
+    display: inline-block;
+    text-align: left;
+    line-height: 80%;
+}
+
+footer {
+    font-family: Aspira;
+    border-top: black solid 1px;
+    width: 100%;
+    object-position: bottom;
+}
+
+#date {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: black;
+    size: 23px;
+    text-align: center;
+    line-height: 100%;
+}
+
+#jelly {
+    margin-bottom: 35px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-position: center;
+}
+
+#latin {
+    font-family: JaneAusten, script;
+    color: #aa8;
+    font-size: 1.3rem;
+    -webkit-transform: rotate(-90deg) translateY(400px) translateX(-10px);
+}
+
+#volume {
+    font-family: Pesaro, Arial, sans-serif;
+    color: #aaa;
+    -webkit-transform: rotate(-90deg) translateY(-400px) translateX(-10px);
+    font-size: 6rem;
+}
+
+#number {
+    font-family: Pesaro, Arial, sans-serif;
+    -webkit-transform: rotate(90deg);
+    font-size: 3rem;
+    text-align: center; width: 7rem;
+}
